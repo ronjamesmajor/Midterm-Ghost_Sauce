@@ -1,0 +1,37 @@
+.b-example-divider {
+  height: 3rem;
+  background-color: #1B1E22;
+  border: solid #1B1E22;
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em #1B1E22, inset 0 .125em .5em #1B1E22;
+}
+
+.form-control-dark {
+  color: #E8E9EB;
+  background-color: #1B1E22;
+  border-color: #E8E9EB;
+}
+.form-control-dark:focus {
+  color: #E8E9EB;
+  background-color: #1B1E22;
+  border-color: #E8E9EB;
+  box-shadow: 0 0 0 .25rem #E0DFD5;
+}
+
+.bg-dark {
+  --bs-bg-opactity: 1;
+  background-color: #1B1E22;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
