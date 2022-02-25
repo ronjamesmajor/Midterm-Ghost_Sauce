@@ -10,6 +10,7 @@
     <link href="bootstrap_css/bootstrap.min.css" rel="stylesheet" />
     <!-- My CCS -->
     <link href="css/headers.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" media="screen" />
 </head>
 
 <body class="homepage">
@@ -38,22 +39,70 @@
             </div>
         </div>
     </header>
-    <div class="row mb-3">
-        <div class="col">
-            <div class="card-homepage flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
-                    <h4 class="mb-0 ghostheading">
-                        <a class="text-dark" href="#">Don't be a Stranger</a>
+    <div id="nomobile" class="row mb-3 p-4 p-md-5">
+        <div class="col align-items-center">
+            <div class=" card-homepage flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex align-items-center flex-column">
+                    <h4 class="mb-0 ghostheading align-items-center">
+                        <a class="text-dark" href="https://www.openstreetmap.org/?mlat=40.6375&amp;mlon=-82.4102#map=15/40.6375/-82.4102">Don't be a Stranger</a>
                     </h4>
                     <div class="mb-1 text-muted">Come See Us in Person</div>
-                    <p class="card-text mb-auto">
-                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-82.42106437683107%2C40.619099501739285%2C-82.39926338195802%2C40.655899197582144&amp;layer=mapnik&amp;marker=40.637501885282134%2C-82.41016387939453" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=40.6375&amp;mlon=-82.4102#map=15/40.6375/-82.4102">View Larger Map</a></small>
+                    <p class="blog-post">
+                        <iframe frameborder="0" scrolling="no" width="400" height="600" marginheight="10"
+                            marginwidth="10"
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=-82.42106437683107%2C40.619099501739285%2C-82.39926338195802%2C40.655899197582144&amp;layer=mapnik&amp;marker=40.637501885282134%2C-82.41016387939453"
+                            style="border: 1px solid black"></iframe><br /><small><a
+                                href="https://www.openstreetmap.org/?mlat=40.6375&amp;mlon=-82.4102#map=15/40.6375/-82.4102">View
+                                Larger Map</a></small>
                     </p>
-                    
+                    <br>
+                    <p style="text-align: center;">
+                        <em>Ghost</em> Sauce is located SouthWest of Malabar Farm State Park, along the borders of
+                        Monroe and
+                        Worthington Townships.
+                        <br />
+                        Along Swigart Road.
+
+                    </p>
+
                 </div>
             </div>
         </div>
-   </div> 
+        <div class="col" ">
+                        <div class=" card-homepage flex-md-row mb-5 box-shadow h-md-250 align-items-center">
+            <div class="card-body d-flex align-items-center flex-column">
+                <h4 class="mb-0 ghostheading">
+                    <a class="text-dark" href="#">Drop us a Line!</a>
+                </h4>
+                <div class="mb-2 text-muted">Let us know how much you love <em>Ghost</em></div>
+                <p class="card-text mb-auto">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdCL8dSewjXY5qXlr6zzOM9fe1YuENropuj0Mk7DFO0ZlEEvQ/viewform?embedded=true"
+                        width="640" height="979" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<div id="mobile" class="row mb-3 p-4 p-md-5">
+        <div class="col align-items-center">
+            <div class=" card-homepage flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex align-items-center flex-column">
+                    <h4 class="mb-0 ghostheading align-items-center">
+                        <a class="text-dark" href="mailto:ronald.major@mymhc.ca">On Smaller Screens</a>
+                    </h4>
+                    <div class="mb-1 text-muted">Please use the mail link</div>
+                    <p style="text-align: center;">
+                        Consider using a larger sized device to view <em>Ghost</em> Sauce on a map, 
+                        or to fill out our contact form.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
 </body>
 
 <footer class="text-center text-white fixed-bottom" style="background-color: #1B1E22;">

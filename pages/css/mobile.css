@@ -22,11 +22,28 @@
         display: block;
     }
 
+
+    .mb-3 {
+        padding-bottom: 4rem;
+    }
+
+    #nomobile {
+        display: none !important;
+    }
+
+    .mb-lg-0 {
+        display: none !important;
+    }
+
 }
 
 
 /*Tablet CSS*/
 @media only screen and (min-width: 481px) and (max-width: 980px) {
+
+    #nomobile {
+        display: none !important;
+    }
 
     .jumbotron {
         display: none;
@@ -60,8 +77,16 @@
 /*Desktop CSS*/
 @media only screen and (min-width: 981px) {
 
+    #mobile {
+        display: none;
+    }
+
    .img-tablet {
        display: none;
+   }
+
+   .mb-3 {
+       padding-bottom: 4rem;
    }
 
 }

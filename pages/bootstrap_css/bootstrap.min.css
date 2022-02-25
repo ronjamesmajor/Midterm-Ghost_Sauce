@@ -7189,7 +7189,8 @@ textarea.form-control-lg {
 }
 
 .d-flex {
-    display: flex !important
+    display: flex !important;
+    display: -webkit-flex !important;
 }
 
 .d-inline-flex {
@@ -8429,6 +8430,8 @@ textarea.form-control-lg {
 }
 
 @media (min-width:576px) {
+    
+    
     .float-sm-start {
         float: left !important
     }
