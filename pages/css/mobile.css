@@ -1,0 +1,67 @@
+/* Mobile Phone CSS */
+@media only screen and (max-width: 480px) {
+
+    .jumbotron {
+        display: none;
+        flex-flow: column wrap;
+    }
+
+    .bg-cover {
+        display: none;
+    }
+
+    .p-4 {
+        display: none;
+    }
+
+    .container {
+        padding-top: 0;
+    }
+
+    .row {
+        display: block;
+    }
+
+}
+
+
+/*Tablet CSS*/
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+
+    .jumbotron {
+        display: none;
+        flex-flow: column wrap;
+    }
+
+    .bg-cover {
+        background-size: contain !important;
+        /* min-height: 30vh;  had some ideas....none were good... */
+        background-repeat: no-repeat !important;
+    }
+
+    .p-4 {
+        display: none;
+    }
+
+    .container {
+        padding-top: 0;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .mb-3 {
+        padding-bottom: 4rem;
+    }
+
+}
+
+/*Desktop CSS*/
+@media only screen and (min-width: 981px) {
+
+   .img-tablet {
+       display: none;
+   }
+
+}
