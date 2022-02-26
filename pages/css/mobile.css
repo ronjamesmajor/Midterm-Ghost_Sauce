@@ -32,7 +32,8 @@
     }
 
     .mb-lg-0 {
-        display: none !important;
+        display: flex !important;
+
     }
 
 }
