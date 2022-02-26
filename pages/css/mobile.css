@@ -1,5 +1,9 @@
 /* Mobile Phone CSS */
 @media only screen and (max-width: 480px) {
+    body.homepage {
+        background-color: #E8E9EB;
+    }
+
 
     .jumbotron {
         display: none;
@@ -40,7 +44,7 @@
 
 
 /*Tablet CSS*/
-@media only screen and (min-width: 481px) and (max-width: 980px) {
+@media only screen and (min-width: 481px) and (max-width: 770px) {
 
     #nomobile {
         display: none !important;
@@ -76,7 +80,7 @@
 }
 
 /*Desktop CSS*/
-@media only screen and (min-width: 981px) {
+@media only screen and (min-width: 771px) {
 
     #mobile {
         display: none;
