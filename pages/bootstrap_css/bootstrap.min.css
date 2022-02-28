@@ -726,6 +726,11 @@ progress {
     flex: 1 0 0%
 }
 
+.col:last-of-type {
+padding-bottom: 2rem;
+}
+
+
 .row-cols-auto>* {
     flex: 0 0 auto;
     width: auto
@@ -8207,6 +8212,7 @@ textarea.form-control-lg {
 
 .text-white-footer {
     --bs-text-opacity: 1;
+    padding-top: 4rem;
     color: #E0DFD5 !important;
     text-decoration: none !important;
 }
